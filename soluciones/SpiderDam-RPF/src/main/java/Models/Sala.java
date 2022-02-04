@@ -14,7 +14,7 @@ public class Sala {
     //Constantes
     private final int MAX_FILA=5;
     private final int MAX_COLUMNA=9;
-    private final int PRICE=6;
+    private final int price;
 
     //Variables de cantidad butacas(tipos)
     private int butacasCompradas;
@@ -37,16 +37,17 @@ public class Sala {
 
     public int getButacasLibres() {return butacasLibres;}
 
-    public int getPrice() {return PRICE;}
+    public int getPrice() {return price;}
 
 
     /**
      * Instancia de sala.
      * @return te devuelve siempre la misma sala.
      */
-    public static Sala getInstance(){
+    public static Sala getInstance(int price){
         if (instance==null){
-            instance = new Sala();
+            instance = new Sala(price);
+
         }
         return instance;
     }
@@ -55,7 +56,8 @@ public class Sala {
     /**
      * Constructor de Sala.
      */
-    private Sala() {
+    private Sala(int price) {
+        this.price=price;
         butaca = new Butacas[MAX_FILA][MAX_COLUMNA];
         butacasNewSala();
         tickets = new Ticket[45];
