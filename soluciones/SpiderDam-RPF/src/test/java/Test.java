@@ -21,7 +21,7 @@ public class Test {
 
     @BeforeEach
     void butacasAndTickets(){
-        sala = Sala.getInstance();
+        sala = Sala.getInstance(8);
         butaca[0][0]= new Butacas(Estado.COMPRADO);
         butaca[0][1]= new Butacas(Estado.COMPRADO);
         butaca [1][0] = new Butacas(Estado.RESERVADO);
