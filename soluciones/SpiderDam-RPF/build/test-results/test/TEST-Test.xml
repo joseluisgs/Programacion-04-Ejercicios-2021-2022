@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Test SpiderDam" tests="6" skipped="0" failures="0" errors="0" timestamp="2022-02-01T17:16:55" hostname="RO-PC" time="0.042">
+  <properties/>
+  <testcase name="test get id" classname="Test" time="0.024"/>
+  <testcase name="test get butacas" classname="Test" time="0.001"/>
+  <testcase name="test para los porcentajes" classname="Test" time="0.004"/>
+  <testcase name="test input char numero" classname="Test" time="0.004"/>
+  <testcase name="test get estado de butacas" classname="Test" time="0.002"/>
+  <testcase name="test get Ticket" classname="Test" time="0.003"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

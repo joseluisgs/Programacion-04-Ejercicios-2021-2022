@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="coche:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/coche_jar</output-path>
+    <root id="archive" name="coche_jar.jar">
+      <element id="module-output" name="coche" />
+    </root>
+  </artifact>
+</component>
