@@ -4,7 +4,7 @@ Programación - 04 Programación Orientada a Objetos. 1DAM. Ejercicios realizado
 ![imagen](https://thesoftclix.com/wp-content/uploads/2019/09/unnamed-1.png)
 
 ## ¿Cómo Colaborar?
-Estos ejercicios están resueltos por el alumnado y están basados en la relación de la [Unidad 4: 04 Aplicación de Estructuras de Almacenamiento](https://github.com/joseluisgs/Programacion-04-2021-2022).
+Estos ejercicios están resueltos por el alumnado y están basados en la relación de la [Unidad 4: Programación Orientada a Objetos](https://github.com/joseluisgs/Programacion-04-2021-2022).
 
 Para subir tu ejercicio a GitHub, **POR FAVOR SIGUE ESTAS NORMAS**:
 
