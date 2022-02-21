@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Test" tests="3" skipped="0" failures="0" errors="0" timestamp="2022-02-20T16:51:32" hostname="RO-PC" time="0.028">
+  <properties/>
+  <testcase name="Jugadores addValor" classname="Test" time="0.023"/>
+  <testcase name="Jugadores todoMasVeinte" classname="Test" time="0.001"/>
+  <testcase name="Getter y Setter Jugadores" classname="Test" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
