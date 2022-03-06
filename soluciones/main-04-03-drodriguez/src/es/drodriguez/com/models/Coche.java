@@ -115,8 +115,8 @@ public class Coche {
         boolean lifeCat = false;
         do {
             velocidadFija(tiempoConduccion);
-            System.out.println("Me matengo en VELOCIDAD ");
-            lifeCat = (Math.random()*100 < 10);
+            System.out.println("Me mantengo en VELOCIDAD ");
+            lifeCat = !(Math.random() * 100 < 10);
             contadorTiempo++;
             if (lifeCat){
                 calarCoche();
@@ -192,7 +192,7 @@ public class Coche {
     public void reducirVelocidad(int velocidad) {
         do{
             velocidad--;
-            System.out.println("Velocidad actual: " +velocidad + " y la marcha actual es: " + getMarcha());
+            System.out.println(" Velocidad actual: " +velocidad + " y la marcha actual es: " + getMarcha());
             if (velocidad == 0){
                 puntoMuerto();
             }
@@ -203,13 +203,14 @@ public class Coche {
     public void puntoMuerto(){
         velocidad = 0;
         marcha = 0;
+        System.out.println("Punto muerto V=0, M=0");
     }
 
     //Calar coche cuando aparezca gato
     public void calarCoche(){
-        System.out.println(" 🛑 🛑 🛑 🛑 🛑 🛑 🛑 🛑");
-        System.out.println(" He tenido que frenar 🛑, para no llevarme el gato 🐱‍‍");
-        System.out.println(" 🛑 🛑 🛑 🛑 🛑 🛑 🛑 🛑");
+        System.out.println(" 🛑 🛑 🛑 🛑 🛑 🛑 🛑 🛑 🛑 🛑 🛑 🛑 🛑 🛑 🛑 🛑 🛑 🛑 🛑 🛑 🛑 🛑 🛑 ");
+        System.out.println(" 🛑 He tenido que frenar 🛑, para no llevarme el gato 🐱     🛑‍‍");
+        System.out.println(" 🛑 🛑 🛑 🛑 🛑 🛑 🛑 🛑 🛑 🛑 🛑 🛑 🛑 🛑 🛑 🛑 🛑 🛑 🛑 🛑 🛑 🛑 🛑");
     }
 
     //Mantener velocidad durante un periodo que nos indique el usuario
